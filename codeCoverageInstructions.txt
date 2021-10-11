@@ -1,0 +1,14 @@
+install coverage with $ pip install coverage
+run
+$ coverage run LinkedList.py  #analyses file
+$ coverage report -m    #outputs anaylsys and shows un covered lines
+$ coverage html           # create a more concise html version of the report
+I try out a few things and get 10% code coverage
+I then install pytest-cov using
+another way to check it out
+$ pip install pytest-cov
+$ pytest --cov=app
+and modify the test_app.py file until I get 100% code coverage
+I also generate a html version of the report using
+$ pytest --cov=app --cov-report=html
+https://www.youtube.com/watch?v=7BJ_BKeeJyM&ab_channel=seanwasereytbe
